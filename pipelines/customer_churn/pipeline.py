@@ -98,7 +98,7 @@ def get_pipeline(
     )
     model_approval_status = ParameterString(
         name="ModelApprovalStatus",
-        default_value="Approved",  # ModelApprovalStatus can be set to a default of "Approved" if you don't want manual approval.
+        default_value="PendingManualApproval",  # ModelApprovalStatus can be set to a default of "Approved" if you don't want manual approval.
     )
     input_data = ParameterString(
         name="InputDataUrl",
